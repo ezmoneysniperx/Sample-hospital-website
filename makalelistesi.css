@@ -1,0 +1,151 @@
+body {
+    color: #115271;
+}
+
+.navbar {
+    background-color: #199BD9;
+}
+
+.card-deck {
+    margin: 0;
+}
+
+a.nav-link {
+    margin: 0 3em;
+    color: #80CBEE;
+}
+
+.active {
+    background-color: #45B2E5 ;
+}
+
+.footer {
+    background-color: #213540;
+    color: #80CBEE;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    color: white;
+}
+
+table, td {
+    border-bottom: 1px solid white;
+}
+
+.tabelwaktu {
+    background-color: #45B2E5;
+    margin: 1em 20%;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabelwaktu h6 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    background-image: url("img/header.png");
+    background-size: cover;
+}
+
+.login-logo {
+    float: right;
+}
+
+.contactinfo {
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.contactinfo img {
+    margin-bottom: 5px;
+}
+
+.review {
+    margin-top: 15px;
+    align-items: center;
+    color: #115271;
+}
+
+.review h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #80CBEE;
+}
+
+.review .card-header {
+    background-color: #80CBEE;
+}
+
+.card {
+    margin: 25px;
+}
+
+.message {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    width:50px;
+    z-index: 1;
+}
+#navigasi {
+ position:relative;
+ line-height:30px;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:8px 16px;
+ background-color:#199BD9;
+ color:#fff;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ background-color:#45B2E5;
+ color:#fff;
+}
+
+#navigasi li {
+ position:relative;
+ float:right;
+ bottom: 80px;
+}
+
+#navigasi ul {
+ position:absolute;
+ top: 115px;
+ right: 0px;
+ display:none;
+ text-align: center;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:12em;
+ height:auto;
+ float:left;
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
+

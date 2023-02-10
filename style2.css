@@ -1,0 +1,323 @@
+body {
+    color: #115271;
+}
+
+.media {
+    margin: 15px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+}
+
+.media:nth-of-type(1) {
+    border-top: 1px solid black;
+    padding-top : 1em;
+}
+
+.makaleler {
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    background-color: #199BD9;
+}
+
+.sidebar {
+    background-color: #A9E0F1;
+}
+
+/* .carousel-caption {
+    background-color: grey;
+    opacity: 0.6;
+    color: black;
+} */
+
+.card-deck {
+    margin: 0;
+}
+
+.card-body h5 {
+    font-style: italic;
+}
+
+#card {
+    margin: 0;
+    background-color: #199BD9;
+    border: 0;
+    text-align: center;
+    align-items: center;
+    border-radius: 0%;
+}
+
+#card:nth-of-type(2n) {
+    background-color: #80CBEE;
+}
+
+a.nav-link {
+    margin: 0 3em;
+    color: #80CBEE;
+}
+
+.active {
+    background-color: #45B2E5 ;
+}
+
+/* .nav-item {
+    color: #80CBEE;
+} */
+
+.footer {
+    background-color: #213540;
+    color: #80CBEE;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    color: white;
+}
+
+table, td {
+    border-bottom: 1px solid white;
+}
+
+.tabelwaktu {
+    background-color: #45B2E5;
+    margin: 1em 20%;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabelwaktu h6 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.jumbotron {
+    background-image: url("img/header.png");
+    background-size: cover;
+}
+
+.login-logo {
+    float: right;
+}
+
+.contactinfo {
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.contactinfo img {
+    margin-bottom: 5px;
+}
+
+.review {
+    margin-top: 15px;
+    align-items: center;
+    color: #115271;
+}
+
+.review h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #80CBEE;
+}
+
+.review .card-header {
+    background-color: #80CBEE;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+.column2 {
+    padding: 0px;
+    position: sticky; 
+    top: 0px;
+    left: 50px;
+    }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 20%;
+}
+.menu2 {
+    width:80%;
+    }
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+    
+}
+.menu li {
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: #199BD9;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+.menu2 li {
+    padding: 30px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: #A8D9E8;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+
+}
+.letter {
+    color: #115271;
+    font-family:sans-serif;
+    font-weight: 700;
+    }
+.letter2 {
+    color: #ffffff;
+    font-family:sans-serif;
+    font-weight: 500;
+    }
+.menu li:hover {
+    background-color: #45B2E5;
+}
+.menu2 li:hover {
+    background-color: #45B2E5;
+}
+
+h1 {
+    font-weight: 750;
+}
+.profile {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.message {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    width:50px;
+    z-index: 1;
+}
+.chatroom li {
+    padding: 30px;
+    padding-right: 110px;
+    font-size: 20px;
+    margin-bottom: 0px; 
+    background-color: #A8D9E8;
+    color: #ffffff;
+}
+.chatroom li:hover{
+    background-color: #80CBEE;
+}
+.chatroom li img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+.room {
+    width: 70.5%;
+    height: 10%;
+    background-color: #80CBEE;
+    position: relative;
+    bottom: 67px;
+    left: 290px;
+}
+input {
+    width: 600px;
+}
+.nav {            
+    width: 1000px;
+    height: 516px;
+    padding-left: 0px;
+    background-image: url(img/bg-message.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+            }
+.nav img {
+    position: relative;
+    top: 500px;
+    left: 200px;
+}
+.nav button {
+    position: relative;
+    bottom: 78px;
+    left: 193px;
+    background: #22a4cf;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+button:hover {
+    opacity:0.9;
+}
+#navigasi {
+ position:relative;
+ line-height:30px;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:8px 16px;
+ background-color:#199BD9;
+ color:#fff;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ background-color:#45B2E5;
+ color:#fff;
+}
+
+#navigasi li {
+ position:relative;
+ float:right;
+ bottom: 80px;
+}
+
+#navigasi ul {
+ position:absolute;
+ top: 115px;
+ right: 0px;
+ display:none;
+ text-align: center;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:12em;
+ height:auto;
+ float:left;
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
